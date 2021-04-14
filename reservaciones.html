@@ -1,0 +1,129 @@
+<html>
+
+
+<!-- Mirrored from www.hotelnuevaposada.com/reservaciones.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Apr 2021 16:36:17 GMT -->
+<head>
+<title>Reservaciones</title>
+<META NAME="description" CONTENT=" Bienvenidos al hotel Nueva Posada, lo mejor hotel en la Ribera de Chapala.">
+<META NAME="Keywords" CONTENT="Hotel Nueva Posada,hotel reservations,Ajijic Lake Chapala MEXICO, mexico bed and breakfast,mexican boutique hotels,hotels Ajijic Jalisco Mexico,hotel accommodations mexico,ajijic accomodations,places to stay ajijic chapala,lodging Ajijic Mexico Lake Chapala ">
+
+
+<script language="JavaScript" src="calendar1.js"></script>
+<script language="JavaScript" src="calendar2.js"></script>
+<script type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_validateForm() { //v4.0
+  var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+  for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
+    if (val) { nm=val.name; if ((val=val.value)!="") {
+      if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+        if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+      } else if (test!='R') { num = parseFloat(val);
+        if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+        if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+          min=test.substring(8,p); max=test.substring(p+1);
+          if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+  } if (errors) alert('The following error(s) occurred:\n'+errors);
+  document.MM_returnValue = (errors == '');
+}
+//-->
+</script>
+<title>Reservaciones</title>
+</head>
+
+<body BGCOLOR="#FFFFFF">
+
+<center> 
+
+<img border="0" src="images/header.jpg" align="center" width="580" height="77"><a href="default.html"><br>&nbsp;</a><p>
+
+<h2>Solicitud de Disponibilidad</h2>
+
+<h2>Complete Por Favor</h2>
+</CENTER>
+<form action="http://www.hotelnuevaposada.com/reservaciones.php" method="POST" name="form1" onSubmit="MM_validateForm('ARRIVAL_DATE','','R','DEPARTURE_DATE','','R','FIRST_NAME','','R','LAST_NAME','','R','NO_OF_ADULTS','','RisNum','NO_OF_CHILDRENS','','RisNum','EMAIL_ADDRESS','','RisEmail');return document.MM_returnValue">
+  <div align="center">
+    <center>
+    <table border="0" cellpadding="2" cellspacing="8" style="border-collapse: collapse" bordercolor="#111111" width="80%" id="AutoNumber1">
+      <tr>
+        <td width="100%">
+  <PRE>Fecha de Llegada:<input name="FECHA_LLEGADA" type="text" id="ARRIVAL_DATE" size="10" readonly=""><script>
+  var cal = new calendar1(document.getElementById('ARRIVAL_DATE'));
+
+</script> <a href="javascript: cal.popup();"><img src="scripts/tigraCalendar/img/cal.gif" border="0" width="16" height="16" /></a> *
+
+Fecha de Salida:<input name="FECHA_SALIDA" type="text" id="DEPARTURE_DATE" size="10" readonly=""> <script>
+  var cal2 = new calendar1(document.getElementById('DEPARTURE_DATE'));
+</script><a href="javascript: cal2.popup();"><img src="scripts/tigraCalendar/img/cal.gif" border="0" width="16" height="16" /></a> *
+
+
+Nombre:<input name="NOMBRE" type="text" id="FIRST_NAME" size="20"> * 
+
+Apellido:<input name="APELLIDO" type="text" id="LAST_NAME" size="20"> *   
+
+Dirección 1:<input name="DIRRECION1" type="text" id="ADDRESS1" size="35">  
+
+
+Dirección 2:<input name="DIRRECION2" type="text" id="ADDRESS2" size="35">  
+
+Ciudad:<input name="CIUDAD" type="text" id="CITY" size="20">           
+
+Estado/Provincia:<input name="ESTADO_PROVINCIA" type="text" id="STATE_PROVINCE" size="20"> 
+
+Pais:<input name="PAIS" type="text" id="COUNTRY" size="20">        
+
+Codigo Postal:<input name="CODIGO_POSTAL" type="text" id="ZIP_POSTAL_CODE" size="10"> 
+
+
+# de Adultos:<input name="NO_DE_ADULTOS" type="text" id="NO_OF_ADULTS" size="3" maxlength="3"> *   
+
+# de Niños:<input name="NO_DE_NINOS" type="text" id="NO_OF_CHILDRENS" size="2" maxlength="2"> *  
+
+
+Telefono en casa#:<input name="TELEFONO_CASA" type="text" id="HOME_PHONE" size="15">   
+
+Telefono de oficina #:<input name="TELEFONO_OFICINA" type="text" id="WORK_PHONE" size="15">   
+
+
+Fax:<input name="FAX" type="text" id="FAX" size="15">            
+
+Correo <a class="special" style="text-decoration: none" href="mailto:nuevaposada@prodigy.net.mx"><font color="#000000">Electrónico</font></a>:<input name="CORREO_ELECTRONICO" type="text" id="EMAIL_ADDRESS" size="35"> *
+
+Tarjeta de Credito:<input name="TARJETA_CREDITO" type="text" id="PAYMENT_TYPE" size="15">
+
+
+Información adicional o commentario:<br><textarea name="COMMENTARIO" cols="50" rows="5" id="COMMENTS"></textarea>
+
+Requistos Especiales:
+<textarea name="REQUISITOS_ESPECIALES" cols="50" rows="5" id="SPECIAL_REQUIREMENTS"></textarea><br><br><br>Queremos hacer su estancia lo más interesante posible...
+
+¿Es primera vez que viajan a México?  <input name="PRIMER_VISITA_MEXICO" type="checkbox" id="IS_FIST_TRIP_IN_MEXICO" value="YES"> &nbsp;&nbsp;&nbsp;¿A Ajijic? <input name="A_AJIJIC" type="checkbox" id="IS_FIRST_TIME_IN_LAKE_CHAPALA" value="YES"> 
+
+
+¿Estaría interesado en en realizar algunas actividades o tours? <input name="INTERESO_TOURS" type="checkbox" id="IS_INTERESTED_IN_DAY_TOURS" value="YES">
+
+¿Necesitará algún medio de transporte durante su estancia?  <input name="TRANSPORTACIONES" type="text" id="TRANSPORTATION_NEEDED" size="20"></PRE>
+        <p>
+  <input type="submit" name="Submitir" value="Enviar mi Solicitud"> </p>
+        <p>&nbsp;</td>
+      </tr>
+    </table>
+    </center>
+  </div>
+</form>
+<div align="center">
+  <pre><b><font face="Times New Roman" size="4" color="#000080">DEVUELVE A</font></b><font face="Times New Roman" size="4"><b><font color="#000080"> </font><a href="default.html"><font color="#000080"></font><font color="#000080"><a href="pagina_principal.html"><img border="0" src="images/logo_small.jpg" width="118" height="132"></a></font></a><font color="#000080"> </font></b></font><b><font face="Times New Roman" size="4" color="#000080">LA PAGINA PRINCIPAL</font></b></pre>
+</div>
+
+</BODY>
+<!-- Mirrored from www.hotelnuevaposada.com/reservaciones.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Apr 2021 16:36:17 GMT -->
+</HTML>
